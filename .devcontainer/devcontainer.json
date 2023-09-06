@@ -1,3 +1,6 @@
 {
-    "image": "ghcr.io/xtruder/nix-devcontainer:v1"
+    "build": {
+        "context": "../",
+        "dockerfile": "Dockerfile"
+    }
 }
